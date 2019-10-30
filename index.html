@@ -1,60 +1,148 @@
-<html lang="pl" >
-	<head>
-		<title>Lehmann</title>
-		<meta charset="UTF-8" />
+<!doctype html>
+<html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css" type="text/css" />
-	</head>
-	
-	<body>
-	<div class="gora">
-		<header id="header">
-			<a href="index.html"><img src="logo.png" width="100" height="100" alt="Logo"></a>
-			
-			<nav>
-				<ul>
-					<li><a href="drugi.html">Druga strona</a></li>
-					<li><a href="">Trzecia strona</a></li>
-					<li class="last"><a href="">Czwarta strona</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<div class="srodek">
-		<main>
-			<h1>Dlaczego łabędzie połykają kamień, gdy odchodzą?</h1>
-			<p>Łabędzie znane są ze swojego niekonwencjonalnego sposobu odchodzenia na zawsze. W chwili, gdy na horyzoncie zaczyna zarysowywać się ich koniec, znajdują największy głaz jaki zmieści im się w dziobie i połykają go. Spokojnie i powoli opadają na dno zostawiając znany im świat na rzecz tego podwodnego.</p>
-
-			<article>
-				<header>
-					<h1>Przykładowy artykuł</h1>
-				</header>
-				<p>Jak widać, nie są to małe kwoty. Wydając kilkaset złotych na grę, chciałoby się, aby w nasze ręce i na dyski naszego peceta czy konsoli trafił produkt w pełni dopracowany, oferujący dopieszczoną w każdym calu rozgrywkę. Często jednak tak nie jest i ich stan techniczny pozostawia wiele do życzenia. Pamiętacie Assassin’s Creed: Unity, które swoimi błędami potrafiło bawić, a momentami nawet przerażać (te pozbawione tekstur twarze mogły śnić się po nocach!). A może pecetową wersję Batman: Arkham Knight, która przez pewien czas po debiucie była kompletnie niegrywalna, nawet na mocnych maszynach? No Man’s Sky, które miało być rewolucją, a okazało się tylko cieniem tego, co obiecywały przedpremierowe, efektowne zwiastuny i materiały promocyjne? Ba, nawet nasz Wiedźmin 3: Dziki Gon – świetna, rozbudowana i naprawdę udana gra, krótko po premierze miał pewne wyraźne problemy, jak np. rozczarowującą płynność na konsolach, którą wyeliminowano dopiero w późniejszej aktualizacji.</p>
-				<footer>
-					Lehmann
-				</footer>
-			</article>
-			
-			<section>
-				<h3>Filmy detektywistyczne</h3>
-				<ul>
-					<li>Sherlock Holmes (2009)</li>
-					<li>Seven (1995)</li>
-					<li>Clue (1985)</li>
-				</ul>
-			</section>
-		</main>
+    <title>Hello, world!</title>
+  </head>
+  <body onload="myFunction6()">
 
 
-		<aside>
-			<h3>Powrót Kormoranów.</h3>
-			<p>Doskonale wyszkoleni wodni rybacy przygotowują się do powrotu.</p>
-		</aside>
-	
+    <center><button type="button" class="btn btn-primary">
+      Pierwszy licznik <span class="badge badge-light">4</span>
+    </button>
+    <button type="button" class="btn btn-success">
+      Drugi licznik <span class="badge badge-danger">7</span>
+    </button></center><HR>
 
-		<footer>
-			Copyright © Maciej Lehmann 2019 
-		</footer>
-	</div>
-	</body>
+    <center><p class="jakasklasa">Jakiś przykładowy tekst do zmiany tła...</p></center>
+
+    <center><button onclick="myFunction4()">Kliknij mnie aby zmienić kolor</button></center><HR>
+
+      <div class="progress" id="myProgress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%" id="myBar"></div>
+        </div><BR>
+        <center><button onclick="move()">Załaduj pasek</button></center><HR>
+
+  <div class="slidecontainer">
+  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+  <center><h3><p>Wartość: <span id="val"></span></p></h3></center>
+</div><HR>
+
+  <center><div class="popup" onclick="myFunction5()"><h3>Naciśnij!</h3>
+  <span class="popuptext" id="myPopup">Przykładowy tekst...</span>
+</div></center><HR>
+
+<button type="button" class="collapsible"><center>Otwórz okno tekstowe</center></button>
+<div class="content">
+  <p>Gwiezdne Wojny zmienią kierunek. Wiemy, że Disney i Lucasfilm wyciągnęli wnioski z popełnionych błędów i są wprowadzane decyzje, które mają ustawić odpowiedni kurs dla rozwoju uniwersum na ekranie. Informowaliśmy, że David Benioff i D.B. Weiss, twórcy Gry o tron zrezygnowali z Gwiezdnych Wojen na rzecz pracy w Netflixie. Wiele osób podejrzewało, że to tylko dyplomatyczne komentarze, a prawda jest inna. Joanna Robertson z Vanity Fair sądzi, że poznała tę informację.
+
+Według jej nieoficjalnych doniesień decyzja o zwolnieniu Benioffa i Weissa została podjęta w maju 2019 roku, czyli mniej więcej po emisji 8. sezonu Game of Thrones. Miało to miejsce zanim podpisali kontrakt z Netflixem na tworzenie różnych projektów. Dziennikarka twierdzi, że zostało to łagodnie przeprowadzone, aby umożliwić twórcom znalezienie innej pracy. </p>
+</div><HR>
+
+  <div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Super!</h2>
+  <p>Udało się załadować bez problemów ten przykładowy tekst.</p>
+</div><HR>
+
+  <div id="overlay" onclick="off()">
+  <div id="text">To jest nowy komunikat, który się wyświetla.</div>
+</div>
+
+<div style="padding:20px">
+  <center><button onclick="on()">Wyświetl komunikat</button></center>
+</div><HR>
+
+  <div class="alert">
+  <span class="closebtn">&times;</span>
+  <strong>Uwaga!</strong> Ten alert informuje o wystąpieniu błędu!
+</div><HR>
+
+
+  <center><button onclick="myFunction7()">Pokaż komunikat na dole strony</button></center>
+
+  <div id="snackbar">Nowa wiadomość!</div><HR>
+
+<center><button onclick="myFunction8()">Schowaj obrazek</button></center><BR>
+    <center><img src="https://cdn.pixabay.com/photo/2019/09/14/17/21/ace-4476551_960_720.jpg" width= 250px; height= 250px id="obrazek" /></center><HR>
+
+      <center><button onclick="myFunction9()">Podmień tekst</button></center><BR>
+
+      <center><div id="div9">Witaj!</div></center><HR>
+
+        <center><button onclick="myFunction10()">Zmień style tego diva</button></center><BR>
+
+        <center><div id="div10">
+        To jest przykładowy div z zawartością.
+      </div></center><HR>
+
+        <center><p>Wprowadź napis aby zamienić go z poniższym</p><input type="text" id="change" onchange="myFunction11()" ></center><BR>
+        <center><h4 id="tochange">Napis do zmiany</h4></center><HR>
+
+
+          <center><button onclick="myFunction12()">Obróć obrazek</button></center><BR>
+        <center><img src="https://cdn.pixabay.com/photo/2019/10/26/13/40/autumn-4579561_960_720.jpg" id="obr" width= 250px height=250px ></center><HR>
+
+          <center><button onclick="myFunction13()">Usuń style tego diva</button></center><BR>
+
+          <center><div id="div13" class="style13">
+            To jest inny DIV z przykładową zawartością.
+          </div></center><HR>
+
+            <center><div id="div14">
+            <button class="prz">1</button>
+            <button class="prz">2</button>
+            <button class="prz active">3</button>
+            <button class="prz">4</button>
+            <button class="prz">5</button>
+          </div></center><HR>
+
+            <center><ul id="myUL">
+                        <li><span class="caret">Seriale</span>
+                          <ul class="nested">
+                            <li>HBO GO</li>
+                            <li>Prime Video</li>
+                            <li><span class="caret">Netflix</span>
+                              <ul class="nested">
+                                <li>Altered Carbon</li>
+                                <li>The Crown</li>
+                                <li><span class="caret">Strangers Things</span>
+                                  <ul class="nested">
+                                    <li>Sezon 1</li>
+                                    <li>Sezon 2</li>
+                                    <li>Sezon 3</li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul></center><HR>
+
+                <center><button class="button" onclick="myFunction2()">Zmień obrazek na drugi</button><button class="button" onclick="myFunction1()">Zmień obrazek na pierwszy</button></center><BR>
+                <center><img id="obrazek5" src="https://cdn.pixabay.com/photo/2015/09/09/16/05/forest-931706_960_720.jpg" width= 500px></center><HR>
+
+      <center><button onclick="myFunction3()">Dodaj przycisk</button></center>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
